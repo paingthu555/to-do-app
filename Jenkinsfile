@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git branch: 'main', url: 'git@github.com:paingthu555/to-do-app.git'
+                git branch: 'main', url: 'git@github.com:paingthu555/to-do-project.git'
             }
         }
         
